@@ -1,10 +1,5 @@
 DPC Quantitative Phase Microscopy:
-Matlab and Python codes implement a Tikhonov deconvolution based phase 
-reconstruction algorithm from multi-axis DPC data. Images should be captured
-with LED array illumination or other switchable light sources using four 
-halves of the brightfield circle on in each image. The transfer functions 
-are calculated according to the Weak Object Transfer Function and the absorption
-and phase are solved with a least squares algorithm.
+Matlab and Python codes implement a Tikhonov deconvolution based phase reconstruction algorithm from multi-axis DPC data. Images should be captured with LED array illumination or other switchable light sources using four halves of the brightfield circle on in each image. The transfer functions are calculated according to the Weak Object Transfer Function and the absorption and phase are solved with a least squares algorithm.
 
 **Run the "main_dpc.m" under matlab_code folder and set the variable "aberration_correction" to "false", or open the "main_dpc.ipynb" jupyter notebook under python_code folder.
 
